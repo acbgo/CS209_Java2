@@ -1,0 +1,291 @@
+    1  git --version
+    2  git init
+    3  ls -ah
+    4  git add README.md
+    5  git add README.md
+    6  git add .
+    7  git commit -m "第一次提交，0.3版本（优化版）"
+    8  git remote add origin git@github.com:acbgo/Go-Gym.git
+    9  git push -u origin master
+   10  git push origin master
+   11  git push main
+   12  git branch
+   13  git push -u origin main
+   14  git init
+   15  git add .
+   16  git commit -m "第一次提交，版本0.3（界面优化版）"
+   17  git remote add origin git@github.com:acbgo/Go-Gym.git
+   18  git push -u origin main
+   19  git branch -m master main
+   20  git push -u origin main
+   21  git config --global user.name "acbgo"
+   22  git config --global user.email "1105717400@qq.com"
+   23  cd ~/.ssh
+   24  ssh-keygen -t rsa C "1105717400@qq.com"
+   25  ssh-keygen -t rsa -C "1105717400@qq.com"
+   26  ls ah
+   27  git add .
+   28  ls -ah
+   29  git commit -m "第一次提交，0.3版本（优化版）"
+   30  git remote add origin git@github.com:acbgo/Go-Gym.git
+   31  git push -u origin main
+   32  git pull --rebase origin main
+   33  git add.
+   34  git add .
+   35  gitstatus
+   36  git status
+   37  git status
+   38  git init
+   39  git brance
+   40  git branch
+   41  git status
+   42  git status
+   43  git add .
+   44  git commit -m "lab1.Test"
+   45  git remote add origin git@github.com:acbgo/Go-Gym.git
+   46  git branch
+   47  git push -u origin master
+   48  git branch
+   49  git remote set-url origin git@github.com:acbgo/Go-Gym.git
+   50  git branch
+   51  git remote rm origin
+   52  git remote add origin git@github.com:acbgo/Go-Gym.git
+   53  git branch
+   54  git branch
+   55  git switch master
+   56  git branch
+   57  git branch csb
+   58  git branch csb
+   59  git branch
+   60  git clone git@github.com:acbgo/Go-Gym.git
+   61  git status
+   62  git branch
+   63  git init
+   64  git stash
+   65  git staus
+   66  git status
+   67  git branch
+   68  git switch main
+   69  git rebase --quit
+   70  git branch
+   71  git switch master
+   72  git stash
+   73  git origin
+   74  git remote
+   75  git remote -v
+   76  git remote rm origin
+   77  git remote
+   78  git remote add origin git@github.com:acbgo/Go-Gym.git
+   79  git remote
+   80  git branch
+   81  git switch main
+   82  git switch switch
+   83  git switch master
+   84  git branch
+   85  git fetch
+   86  git branch
+   87  git branch -a
+   88  git switch remotes/origin/main
+   89  git switch main
+   90  git switch master
+   91  git switch oringin/master
+   92  git branch -a
+   93  git branch -a
+   94  git remote prune origin
+   95  git branch -a
+   96  git remote remove origin
+   97  remote branch -a
+   98  git branch -a
+   99  git remote remove master
+  100  git fetch -p
+  101  git branch -a
+  102  git fetch
+  103  git branch
+  104  git branch -a
+  105  git branch -d main
+  106  git switch master
+  107  git switch main
+  108  git branch -d master
+  109  git switch master
+  110  git 
+  111  git stash
+  112  git branch cab
+  113  git branch -a
+  114  git switch cab
+  115  git add .
+  116  git commit -m "with BlueTooth"
+  117  git status
+  118  git
+  119  git branch -a
+  120  git log
+  121  git config user.email
+  122  git config --global user.email 
+  123  git config
+  124  git config user.name
+  125  git config user.email
+  126  git config  --gloable user.email
+  127  git config  --gloabal user.email
+  128  git config --gloabal user.email
+  129  git config --global user.email
+  130  git pull origin master --allow-unrelated-histories
+  131  git status
+  132  git chekout --ours README.md
+  133  git checkout --ours README.md
+  134  git status
+  135  git checkout --ours AndroidManifest.xml
+  136  git checkout --ours app/src/main/AndroidManifest.xml
+  137  git checkout --ours 
+  138  git checkout --ours .
+  139  git commit
+  140  git log
+  141  git log --graph
+  142  q
+  143  git status
+  144  cat README.md 
+  145  git add .
+  146  git status
+  147  git commit
+  148  q
+  149  git checkout master
+  150  git merge csb
+  151  git stuts
+  152  git status
+  153  git push origin master
+  154  git checkout main
+  155  git merge csb
+  156  git push origin main
+  157  git status
+  158  git pull origin csb --allow-unrelated-histories
+  159  git log
+  160  git branch
+  161  git switch main
+  162  cd .git
+  163  vim config
+  164  vim config
+  165  vim config
+  166  q
+  167  git remote
+  168  git remote get-url origin
+  169  git remote set-url origin https://github.com/acbgo/go_gym.git
+  170  cd ..
+  171  cd //
+  172  cd ..
+  173  cd go__gym
+  174  git remote
+  175  git remote get-url
+  176  git remote get-url origin
+  177  git remote rm origin
+  178  git branch
+  179  git remote get-url
+  180  git init
+  181  git add .
+  182  git branch
+  183  git remote
+  184  git remote add origin https://github.com/acbgo/go_gym.git
+  185  git remote
+  186  git remote get-url origin
+  187  git branch
+  188  git switch main
+  189  git commit -m "0.7version"
+  190  git push -u origin main
+  191  git branch -m master main
+  192  git push -u origin main
+  193  git push -u origin main
+  194  fit fetch
+  195  git fetch
+  196  git push -u origin main
+  197  git pull
+  198  git merge
+  199  git pull --allow-unrelated-histories
+  200  git branch --set-upstream-to=origin/<branch> main
+  201  git branch
+  202  git add .
+  203  git commit -m "0.7version"
+  204  git push -u origin main
+  205  git push --force
+  206  git branch -a
+  207  git push --set-upstream origin main
+  208  git push -u origin main
+  209  git pull
+  210  git pull origin main
+  211  git pull origin main --allow-unrelated-histories
+  212  git push -u origin main
+  213  q
+  214  git add .
+  215  git add .
+  216  git commit -m "多蓝牙连接以及数据储存"
+  217  git push
+  218  git status
+  219  git add .
+  220  git commit -m "7.27 before modify"
+  221  git push
+  222  git status
+  223  git status
+  224  git push
+  225  git status
+  226  git stautus
+  227  git status
+  228  git add .
+  229  git commit -m "8.6 before merge"
+  230  git push
+  231  git status
+  232  git status
+  233  git add .
+  234  git commit -m "数据读取改进版"
+  235  git push
+  236  git status
+  237  git add .
+  238  git commit -a -m "数据读取改进版"
+  239  git push
+  240  git
+  241  git status
+  242  git push
+  243  git push
+  244  git status
+  245  git status
+  246  git add .
+  247  git commit -m "解决数据储存空字符串问题"
+  248  git push
+  249  git status
+  250  git status
+  251  git add .
+  252  git commit -m "新增历史记录"
+  253  git push
+  254  git status
+  255  git add .
+  256  git commit -m "新增历史查看运动数据"
+  257  git push
+  258  git push
+  259  git config --global --unset http.proxy
+  260  git push
+  261  git config --global http.sslVerify false
+  262  git push
+  263  git status
+  264  git status
+  265  git push
+  266  git status
+  267  git status
+  268  git add .
+  269  git commit -m "最终版本"
+  270  git push
+  271  git status
+  272  git init
+  273  branch -m main
+  274  branch main
+  275  git init
+  276  git checkout -b main
+  277  git branch -d master
+  278  git add .
+  279  git commit -m "first commit"
+  280  git push
+  281  git remote add CS209_Java2 https://github.com/acbgo/CS209_Java2.git
+  282  git push
+  283  git push CS209_Java2
+  284   git push --set-upstream CS209_Java2 main
+  285  git history
+  286  git log
+  287  git reflog
+  288  git reflog
+  289  git reflog --all
+  290  history
+  291  history>>history.txt

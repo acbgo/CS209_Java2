@@ -1,0 +1,4 @@
+JMH S 14 lab2.Practice2 S 46 lab2.jmh_generated.Practice2_testarray_jmhTest S 9 testarray S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
+JMH S 14 lab2.Practice2 S 50 lab2.jmh_generated.Practice2_testarraylist_jmhTest S 13 testarraylist S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
+JMH S 14 lab2.Practice2 S 47 lab2.jmh_generated.Practice2_testintmap_jmhTest S 10 testintmap S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
+JMH S 14 lab2.Practice2 S 51 lab2.jmh_generated.Practice2_testlinkedlist_jmhTest S 14 testlinkedlist S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 11 NANOSECONDS E E 
