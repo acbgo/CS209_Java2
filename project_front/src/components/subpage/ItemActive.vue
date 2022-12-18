@@ -5,8 +5,11 @@
 <script>
 export default {
   name: 'ItemActive',
-  mounted () {
-    this.setActive()
+  data () {
+    return {
+      xData: [],
+      yData: []
+    }
   },
   methods: {
     setActive () {
@@ -28,11 +31,11 @@ export default {
         },
         yAxis: {
           type: 'category',
-          data: ['aaa', 'bbb']
+          data: this.yData
         },
         series: [
           {
-            data: [23, 54],
+            data: this.xData,
             type: 'bar',
             itemStyle: {
               normal: {

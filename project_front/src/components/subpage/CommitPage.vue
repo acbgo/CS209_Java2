@@ -15,17 +15,16 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: 'CommitPage',
   data () {
     return {
       totalCount: 5,
       releases: [
-        {name: 1, value: 20},
-        {name: 2, value: 25},
-        {name: 3, value: 30},
-        {name: 4, value: 15},
-        {name: 5, value: 10}
+        {name: '1', value: 20},
+        {name: '2', value: 25}
       ],
       commits: [
         {time: '2022-12-1', count: 10},
@@ -38,10 +37,6 @@ export default {
         {time: '2022-12-8', count: 12}
       ]
     }
-  },
-  mounted () {
-    this.setRelease()
-    this.setCommit()
   },
   methods: {
     setRelease () {
@@ -72,7 +67,7 @@ export default {
             emphasis: {
               label: {
                 show: true,
-                fontSize: 60,
+                fontSize: 40,
                 fontWeight: 'bold'
               }
             },
@@ -90,7 +85,7 @@ export default {
       let commit = this.$echarts.init(document.getElementById('commit'))
       let dataAxis = []
       let data = []
-      let yMax = 30
+      let yMax = 20
       let dataShadow = []
       for (let i = 0; i < this.commits.length; i++) {
         dataAxis.push(this.commits[i].time)
@@ -181,6 +176,33 @@ export default {
         })
       })
       commit.setOption(option)
+    },
+    readData () {
+      let url = `http://localhost:8181/repo_Info/release/Get_release_number?owner_repo=${this.owner}_${this.repo}`
+      axios.get(url).then(res => {
+        this.totalCount = res.data
+      })
+      url = `http://localhost:8181/repo_Info/release/Get_commit_number_in_release?owner_repo=${this.owner}_${this.repo}`
+      this.releases = []
+      axios.get(url).then(res => {
+        console.log(res.data.length)
+        if (res.data.length > 0) {
+          for (let i = 0; i < 3; i++) {
+            let tmp = {name: '', value: 0}
+            tmp.name = res.data[i].now_release
+            tmp.value = res.data[i].cnt
+            console.log(tmp)
+            this.releases.push(tmp)
+          }
+          console.log(this.releases)
+          this.setRelease()
+        } else {
+          let tmp = {name: 'No data', value: 0}
+          this.releases.push(tmp)
+          this.setRelease()
+        }
+      })
+      this.setCommit()
     }
   }
 }
@@ -195,7 +217,7 @@ export default {
 
 .Commit {
   height: 500px;
-  width: 800px;
+  width: 1100px;
   margin-left: -40px;
 }
 
